@@ -7,6 +7,8 @@ import { ResumeComponent } from './views/resume/resume.component';
 import { PortfolioComponent } from './views/portfolio/portfolio.component';
 import { LayoutMainComponent } from './layout/layout-main/layout-main.component';
 import { MainComponent } from './views/main/main.component';
+import { MiniHobbyComponent } from './component/mini-hobby/mini-hobby.component';
+import { MiniSkillComponent } from './component/mini-skill/mini-skill.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MainComponent } from './views/main/main.component';
     ResumeComponent,
     PortfolioComponent,
     LayoutMainComponent,
-    MainComponent
+    MainComponent,
+    MiniHobbyComponent,
+    MiniSkillComponent
   ],
   imports: [
     BrowserModule,

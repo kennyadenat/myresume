@@ -12,7 +12,7 @@
     })(document.documentElement)
 
   </script>
-  <title>Mae | Single Page Event HTML Template</title>
+  <title>Adelugba Kehinde | Portfolio</title>
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="dns-prefetch" href="//s.w.org">
   <link rel="icon" href="favicons/favicon.png" type="image/x-icon">
@@ -21,10 +21,11 @@
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all">
   <link rel="stylesheet" href="/assets/css/scheme-eliza.css" type="text/css" media="all">
   <link rel="stylesheet" href="/assets/css/style-custom.css" type="text/css" media="all">
+  <link href="/assets/css/custom.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="home">
-  <app-root></app-root>
+
   <div class="site" id="page">
     <header class="site-header" id="masthead">
       <div class="site-header__wrap">
@@ -50,14 +51,14 @@
                       <div class="menu-top-menu-container">
                         <ul class="menu" id="top-menu">
                           <li class="menu-item-has-children">
-                            <a href="#">Portfolio</a>
+                            <a href="/portfolio">Portfolio</a>
                           </li>
                           <li class="menu-item-has-children">
-                            <a href="#">Resume</a>
+                            <a href="/resume">Resume</a>
                           </li>
-                          <li class="menu-item-has-children">
+                          <!-- <li class="menu-item-has-children">
                             <a href="#">About</a>
-                          </li>
+                          </li> -->
                         </ul>
                       </div>
                     </nav>
@@ -76,13 +77,295 @@
     <div class="site-content" id="content">
       <div class="content-area" id="primary">
         <main class="site-main" id="main">
-          <section class="section section--first" id="home">
+
+          <section class="section section--first" id="homeLayout">
             <div class="paper paper--200 paper--gooey in-view" data-elements="PAPER_04">
               <div class="in-view__child in-view__child--fadein">
                 <img class="d-block lazyload--el lazyload"
                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                   data-src="assets/media/stock/shape-16.svg" alt="" width="1920" height="1080">
               </div>
+              <script>
+                var PAPER_PORTFOLIO = [{
+                    type: 'circle',
+                    strokeColor: '#587291',
+                    strokeWidth: 12,
+                    mobile: {
+                      x: -480,
+                      y: 360,
+                      size: 6
+                    },
+                    desktop: {
+                      x: -480,
+                      y: 360,
+                      size: 6
+                    }
+                  },
+                  {
+                    type: 'wave',
+                    rotate: 22,
+                    strokeColor: '#dce6f2',
+                    strokeWidth: 5,
+                    mobile: {
+                      x: -500,
+                      y: 0,
+                      size: 18
+                    },
+                    desktop: {
+                      x: -500,
+                      y: 0,
+                      size: 18
+                    }
+                  },
+                  {
+                    type: 'wave',
+                    rotate: 195,
+                    strokeColor: '#dce6f2',
+                    strokeWidth: 5,
+                    mobile: {
+                      x: 0,
+                      y: -380,
+                      size: 30
+                    },
+                    desktop: {
+                      x: 0,
+                      y: -380,
+                      size: 30
+                    }
+                  },
+                  {
+                    type: 'wave',
+                    rotate: -45,
+                    strokeColor: '#dce6f2',
+                    strokeWidth: 5,
+                    mobile: {
+                      x: 440,
+                      y: 0,
+                      size: 21
+                    },
+                    desktop: {
+                      x: 440,
+                      y: 0,
+                      size: 21
+                    }
+                  },
+                  {
+                    type: 'triangle',
+                    rotate: -85,
+                    strokeColor: '#587291',
+                    strokeWidth: 12,
+                    mobile: {
+                      x: -280,
+                      y: -280,
+                      size: 28
+                    },
+                    desktop: {
+                      x: -280,
+                      y: -280,
+                      size: 28
+                    }
+                  },
+                  {
+                    type: 'triangle',
+                    rotate: 25,
+                    strokeColor: '#1ccad8',
+                    strokeWidth: 8,
+                    mobile: {
+                      x: 180,
+                      y: 380,
+                      size: 12
+                    },
+                    desktop: {
+                      x: 180,
+                      y: 380,
+                      size: 12
+                    }
+                  },
+                  {
+                    type: 'circle',
+                    strokeColor: '#1ccad8',
+                    strokeWidth: 12,
+                    mobile: {
+                      x: -560,
+                      y: -250,
+                      size: 44
+                    },
+                    desktop: {
+                      x: -560,
+                      y: -250,
+                      size: 44
+                    }
+                  },
+                  {
+                    type: 'circle',
+                    strokeColor: '#587291',
+                    strokeWidth: 14,
+                    mobile: {
+                      x: 240,
+                      y: -350,
+                      size: 10
+                    },
+                    desktop: {
+                      x: 240,
+                      y: -350,
+                      size: 10
+                    }
+                  },
+                  {
+                    type: 'circle',
+                    strokeColor: '#dce6f2',
+                    strokeWidth: 14,
+                    mobile: {
+                      x: 390,
+                      y: 280,
+                      size: 36
+                    },
+                    desktop: {
+                      x: 390,
+                      y: 280,
+                      size: 36
+                    }
+                  },
+                  {
+                    type: 'circle',
+                    strokeColor: '#1ccad8',
+                    strokeWidth: 14,
+                    mobile: {
+                      x: 580,
+                      y: 40,
+                      size: 20
+                    },
+                    desktop: {
+                      x: 580,
+                      y: 40,
+                      size: 20
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--16.png',
+                    rotate: 0,
+                    mobile: {
+                      x: 520,
+                      y: -230,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: 520,
+                      y: -230,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--18.png',
+                    rotate: 210,
+                    mobile: {
+                      x: 500,
+                      y: -210,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: 500,
+                      y: -210,
+                      scale: 0.3
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--17.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -220,
+                      y: 300,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: -220,
+                      y: 300,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--18.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -170,
+                      y: 290,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: -170,
+                      y: 290,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--19.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -500,
+                      y: 140,
+                      scale: 0.15
+                    },
+                    desktop: {
+                      x: -500,
+                      y: 140,
+                      scale: 0.15
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--18.png',
+                    rotate: 25,
+                    mobile: {
+                      x: -490,
+                      y: 120,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: -490,
+                      y: 120,
+                      scale: 0.3
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--16.png',
+                    rotate: 45,
+                    blendMode: 'xor',
+                    mobile: {
+                      x: 100,
+                      y: -100,
+                      scale: 0.6
+                    },
+                    desktop: {
+                      x: 100,
+                      y: -100,
+                      scale: 0.6
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/assets/media/stock/shape--19.png',
+                    rotate: 165,
+                    blendMode: 'xor',
+                    mobile: {
+                      x: -50,
+                      y: -100,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: -50,
+                      y: -100,
+                      scale: 0.4
+                    }
+                  },
+                ];
+
+              </script>
               <script>
                 var PAPER_04 = [{
                     mobile: {
@@ -195,383 +478,9 @@
             </div>
           </section>
 
+          <app-root></app-root>
 
 
-          <section class="section" id="widecard">
-            <div class="container">
-              <div class="row in-view">
-                <div class="col-12 col-xl-10 offset-xl-1">
-                  <div class="reveal reveal--left reveal--darken reveal--primary">
-                    <figure class="reveal__background lazyload--el lazyload"
-                      data-bg="assets/media/stock/placeholder-1920x1280.jpg"></figure>
-                    <h3 class="in-view__child in-view__child--fadein">Open Source
-                      <br>Artificial Intelligence Models.</h3>
-                    <div class="reveal__copy indent">
-                      <p class="in-view__child in-view__child--fadein">Did you know that you can use AI to caption
-                        images, understand text, and generate art? Come to this
-                        talk for a tour of the latest projects using AI for computer visions.</p>
-                      <div class="row">
-                        <div class="col-12 col-md-6 in-view__child in-view__child--fadein">
-                          <h6>The Empire Strikes Back</h6>
-                          <a class="sub-head dashed dashed--reverse in-view__child" href="#">25 May</a>
-                        </div>
-                        <div class="col-12 col-md-6 in-view__child in-view__child--fadein">
-                          <h6>The Force Awakens</h6>
-                          <a class="sub-head dashed dashed--reverse in-view__child" href="#">17 December</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-xl-10 offset-xl-1">
-                  <div class="in-view">
-                    <h1 class="page-title in-view__child in-view__child--fadein">Skills</h1>
-                    <h5 class="page-subtitle"><span>Pixudio’s top work collection.</span></h5>
-                  </div>
-                  <div class="row padding-top margin-top">
-                    <div class="col-12 col-lg-6">
-                      <div class="service-link in-view">
-                        <h4 class="in-view__child in-view__child--fadein">Syntax &amp; Development Tools</h4>
-                        <div class="indent text-body-3 in-view__child in-view__child--fadein">
-                          <p>We’ll lead you through the process of defining what makes you unique and then express this
-                            through a brand identity.</p>
-                        </div>
-                        <div class="indent margin-bottom in-view__child in-view__child--fadein">
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">Voice &amp;
-                              Messaging</a></div>
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">Brand Identity</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                      <div class="service-link in-view">
-                        <h4 class="in-view__child in-view__child--fadein">Marketing &amp; Workplace Tools</h4>
-                        <div class="indent text-body-3 in-view__child in-view__child--fadein">
-                          <p>We steer a path through the limitless possibilities of digital, making business challenges
-                            opportunities for growth.</p>
-                        </div>
-                        <div class="indent margin-bottom in-view__child in-view__child--fadein">
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">Creative Direction</a>
-                          </div>
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">User Experience</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                      <div class="service-link in-view">
-                        <h4 class="in-view__child in-view__child--fadein">Cashless ticket exchange</h4>
-                        <div class="indent text-body-3 in-view__child in-view__child--fadein">
-                          <p>Exchange and Register your cashless wristband. Register it online and connect your credit
-                            card in a few easy steps!</p>
-                        </div>
-                        <div class="indent margin-bottom in-view__child in-view__child--fadein">
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">Initiate trade</a>
-                          </div>
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">Negotiate swap</a>
-                          </div>
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">official spot</a></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                      <div class="service-link in-view">
-                        <h4 class="in-view__child in-view__child--fadein">User Interface Strategy</h4>
-                        <div class="indent text-body-3 in-view__child in-view__child--fadein">
-                          <p>We focus on how the components of a website work together and connect them from a user’s
-                            perspective to create an engaging, user-friendly experience.</p>
-                        </div>
-                        <div class="indent margin-bottom in-view__child in-view__child--fadein">
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">Mobile Applications</a>
-                          </div>
-                          <div><a class="sub-head dashed dashed--hover in-view__child" href="#">Web Applications</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-xl-10 offset-xl-1">
-                  <div class="in-view">
-                    <h1 class="page-title in-view__child in-view__child--fadein">Hobbies</h1>
-                    <h5 class="page-subtitle"><span>All Grind and No Play . .</span></h5>
-                  </div>
-                  <div class="service-icon in-view padding-top margin-top">
-                    <div class="service-icon__background"></div>
-                    <div class="service-icon__copy">
-                      <div class="row in-view__child in-view__child--fadein">
-                        <div class="col-12 col-lg-6">
-                          <div class="service-icon__item">
-                            <div class="row align-items-center">
-                              <div class="col-auto"><i class="fa fa-fw fa-2x fa-gamepad"></i></div>
-                              <div class="col">
-                                <h6>Playing Games</h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                          <div class="service-icon__item">
-                            <div class="row align-items-center">
-                              <div class="col-auto"><i class="fa fa-fw fa-2x fa-book"></i></div>
-                              <div class="col">
-                                <h6>Reading Books</h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row in-view__child in-view__child--fadein">
-                        <div class="col-12 col-lg-6">
-                          <div class="service-icon__item">
-                            <div class="row align-items-center">
-                              <div class="col-auto"><i class="fa fa-fw fa-2x fa-cube"></i></div>
-                              <div class="col">
-                                <h6>Oceanic Operation</h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                          <div class="service-icon__item">
-                            <div class="row align-items-center">
-                              <div class="col-auto"><i class="fa fa-fw fa-2x fa-odnoklassniki-square"></i></div>
-                              <div class="col">
-                                <h6>Bonanza Control</h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row in-view__child in-view__child--fadein">
-                        <div class="col-12 col-lg-6">
-                          <div class="service-icon__item">
-                            <div class="row align-items-center">
-                              <div class="col-auto"><i class="fa fa-fw fa-2x fa-modx"></i></div>
-                              <div class="col">
-                                <h6>Research</h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                          <div class="service-icon__item">
-                            <div class="row align-items-center">
-                              <div class="col-auto"><i class="fa fa-fw fa-2x fa-music"></i></div>
-                              <div class="col">
-                                <h6>Listening to Music</h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section" id="testimonial">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-xl-10 offset-xl-1">
-                  <div class="carousel">
-                    <div class="carousel__frame">
-                      <div class="carousel__item">
-                        <div class="row in-view">
-                          <div class="col-12 col-md-5 order-md-2">
-                            <div class="carousel__image poster">
-                              <figure>
-                                <img class="lazyload--el lazyload in-view__child"
-                                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                  data-src="assets/media/stock/placeholder-700x480.jpg" alt="" width="700" height="480">
-                                <div class="poster--cover in-view in-view__child" data-offset="90%"></div>
-                              </figure>
-                            </div>
-                          </div>
-                          <div class="col-12 col-md-7 order-md-1">
-                            <div class="carousel__copy">
-                              <blockquote class="indent in-view__child in-view__child--fadein">
-                                <p>If you are looking for how to export and serve your models at scale with AI Serving.
-                                  This
-                                  talk is the best practices and lessons to learn from.</p>
-                                <cite class="sub-head in-view__child dashed">Aayla Secura, a Jedi</cite>
-                              </blockquote>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel__item">
-                        <div class="row in-view">
-                          <div class="col-12 col-md-5 order-md-2">
-                            <div class="carousel__image poster">
-                              <figure>
-                                <img class="lazyload--el lazyload in-view__child"
-                                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                  data-src="assets/media/stock/placeholder-700x480.jpg" alt="" width="700" height="480">
-                                <div class="poster--cover in-view in-view__child" data-offset="90%"></div>
-                              </figure>
-                            </div>
-                          </div>
-                          <div class="col-12 col-md-7 order-md-1">
-                            <div class="carousel__copy">
-                              <blockquote class="indent indent in-view__child in-view__child--fadein">
-                                <p>In this talk you will explore how to use AI to design, build and analyze advanced
-                                  conversational
-                                  UX that may work across different platforms.</p>
-                                <cite class="sub-head in-view__child dashed">Count Dooku, Sith Lord</cite>
-                              </blockquote>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel__item">
-                        <div class="row in-view">
-                          <div class="col-12 col-md-5 order-md-2">
-                            <div class="carousel__image poster">
-                              <figure>
-                                <img class="lazyload--el lazyload in-view__child"
-                                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                  data-src="assets/media/stock/placeholder-700x480.jpg" alt="" width="700" height="480">
-                                <div class="poster--cover in-view in-view__child" data-offset="90%"></div>
-                              </figure>
-                            </div>
-                          </div>
-                          <div class="col-12 col-md-7 order-md-1">
-                            <div class="carousel__copy">
-                              <blockquote class="indent indent in-view__child in-view__child--fadein">
-                                <p>You’ll dive into some of the technical details and challenges faced in building
-                                  generative
-                                  models, but no AI expertise is required to follow this talk. </p>
-                                <cite class="sub-head in-view__child dashed">Ahsoka Tano, Padawan learner</cite>
-                              </blockquote>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel__dots carousel__dots--pull in-view"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section" id="registration">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-xl-10 offset-xl-1 text-center">
-                  <h5>
-                    <span>10% Sale offer for early birds</span>
-                  </h5>
-                  <h2 class="margin-top">
-                    <span>Meet top
-                      <span class="color--secondary">digital masters </span>
-                      <br class="hidden-sm-down"> & influencers in a unique
-                      <br class="hidden-sm-down">
-                      <span class="color--secondary">2-days </span> experience.</span>
-                  </h2>
-                  <p class="padding-top margin-top in-view" data-offset="90%">
-                    <span class="d-inline-block in-view__child in-view__child--scalein">
-                      <a class="btn btn--primary" href="#">Get tickets now</a>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section" id="subscribe">
-            <div class="container">
-              <div class="row in-view">
-                <div class="col-12 col-xl-10 offset-xl-1">
-                  <div class="reveal reveal--darken">
-                    <h3 class="text-center in-view__child">Already a digital thinker?
-                      <br>then become a friend.</h3>
-                    <div class="reveal__copy padding-top margin-top">
-                      <div class="row">
-                        <div class="col-12 col-lg-10 offset-lg-1">
-                          <!-- Begin MailChimp Signup Form -->
-                          <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
-                          <div id="mc_embed_signup">
-                            <form action="YOUR_FORM_ACTION_URL" method="post" id="mc-embedded-subscribe-form"
-                              name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                              <!-- Action URL sample: //pixudio.us15.list-manage.com/subscribe/post?u=4f175e7a78cd5c1fce7ef555a&id=8f06b51a52 -->
-
-                              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                              <div class="sr-only" aria-hidden="true">
-                                <input type="text" name="YOUR_FORM_HASHED_KEY" tabindex="-1" value="">
-                                <!-- Hashed key sample: b_4f175e7a78cd5c1fce7ef555a_8f06b51a52 -->
-                              </div>
-
-                              <div id="mc_embed_signup_scroll">
-                                <div class="flex-md-wrap">
-                                  <div class="mc-field-group flex-md-1">
-                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
-                                      placeholder="Email Address" autocomplete='email'>
-                                  </div>
-                                  <div class="mc-field-group flex-md-1">
-                                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME"
-                                      placeholder="First Name" autocomplete='given-name'>
-                                  </div>
-                                  <div class="mc-field-group">
-                                    <input type="submit" value="Just do it!" name="subscribe" id="mc-embedded-subscribe"
-                                      class="btn btn--secondary">
-                                  </div>
-                                </div>
-                                <!-- .flex-md-wrap -->
-
-                                <div id="mce-responses" class="clearfix">
-                                  <div class="response margin-top" id="mce-error-response" style="display:none"></div>
-                                  <div class="response margin-top" id="mce-success-response" style="display:none"></div>
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                          <!--End mc_embed_signup-->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section padding-bottom" id="instagram">
-            <div class="container in-view">
-              <h3 class="text-center">@maeevent</h3>
-              <p class="sub-head in-view__child dashed dashed--vertical">
-                <a href="https://www.instagram.com/maeevent" target="_blank">Our instagram</a>
-              </p>
-            </div>
-          </section>
-          <section id="feed">
-            <script>
-              var INSTAFEED_SETTING = {
-                userId: 'YOUR_USER_ID', // SAMPLE: 5483791846
-                accessToken: 'YOUR_ACCESS_TOKEN' // SAMPLE: 5483791846.37a582e.e59c58fb4e414ba9a9da1c070d06bbf8
-              }
-
-            </script>
-            <div class="instagram-feed" id="instafeed" data-config="INSTAFEED_SETTING"></div>
-          </section>
         </main>
       </div>
     </div>
@@ -581,13 +490,13 @@
         <div class="container">
           <div class="row in-view">
             <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
-              <a class="sub-head" href="https://themeforest.net/user/pixudio/portfolio">
+              <a class="sub-head" href="/">
                 With
-                <i class="fa fa-heart color--secondary"></i> by pixudio.com</a>
+                <i class="fa fa-heart color--secondary"></i> by Adelugba Kehinde</a>
             </div>
             <div class="col-12 col-md-6 col-xl-5 text-md-right">
-              <a class="sub-head dashed dashed--reverse in-view__child in-view__child--in" href="#">Purchase this
-                template</a>
+              <a class="sub-head dashed dashed--reverse in-view__child in-view__child--in" href="/">Product Specialist
+              </a>
             </div>
           </div>
         </div>
@@ -621,10 +530,10 @@
                     <a href="#">Pages</a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="about.html">About</a>
+                        <a href="/portfolio">Portfolio</a>
                       </li>
                       <li>
-                        <a href="services-one.html">Services &mdash; one</a>
+                        <a href="/resume">Resume</a>
                       </li>
                     </ul>
                   </li>

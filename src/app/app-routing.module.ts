@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutMainComponent } from './layout/layout-main/layout-main.component';
 import { MainComponent } from './views/main/main.component';
+import { PortfolioComponent } from './views/portfolio/portfolio.component';
+import { ResumeComponent } from './views/resume/resume.component';
 
 const routes: Routes = [
   {
@@ -9,8 +11,8 @@ const routes: Routes = [
     component: LayoutMainComponent,
     children: [
       { path: '', component: MainComponent, pathMatch: 'full' },
-      // { path: 'sponsors', component: MainSponsorComponent },
-      // { path: 'exhibit', component: MainExhibitComponent },
+      { path: 'resume', component: ResumeComponent },
+      { path: 'portfolio', component: PortfolioComponent },
     ]
   },
 ];

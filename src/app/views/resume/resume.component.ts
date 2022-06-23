@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    const about = document.getElementById('homeLayout');
+    about?.classList.add('displayopt');
+  }
 
   ngOnInit(): void {
   }
