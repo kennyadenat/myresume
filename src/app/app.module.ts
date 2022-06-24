@@ -9,6 +9,8 @@ import { LayoutMainComponent } from './layout/layout-main/layout-main.component'
 import { MainComponent } from './views/main/main.component';
 import { MiniHobbyComponent } from './component/mini-hobby/mini-hobby.component';
 import { MiniSkillComponent } from './component/mini-skill/mini-skill.component';
+import { PvpComponent } from './views/study/pvp/pvp.component';
+import { GsimpComponent } from './views/study/gsimp/gsimp.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MiniSkillComponent } from './component/mini-skill/mini-skill.component'
     LayoutMainComponent,
     MainComponent,
     MiniHobbyComponent,
-    MiniSkillComponent
+    MiniSkillComponent,
+    PvpComponent,
+    GsimpComponent
   ],
   imports: [
     BrowserModule,
